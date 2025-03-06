@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+  <film>
+    <name>Avengers: Endgame</name>
+    <duration>181</duration>
+    <genre>Action</genre>
+    <director>Russo Brothers</director>
+    <year>2019</year>
+    <classification>PG-13</classification>
+  </film>
+  <film>
+    <name>Guardian Of The Galaxy Vol. 3</name>
+    <duration>122</duration>
+    <genre>Action</genre>
+    <director>James Gunn</director>
+    <year>2023</year>
+    <classification>PG-13</classification>
+  </film>
+  <film>
+    <name>The Batman</name>
+    <duration>176</duration>
+    <genre>Action</genre>
+    <director>Matt Reeves</director>
+    <year>2022</year>
+    <classification>PG-13</classification>
+  </film>
+  <film>
+    <name>Oppenheimer</name>
+    <duration>180</duration>
+    <genre>Drama/History</genre>
+    <director>Christoper Nolan</director>
+    <year>2023</year>
+    <classification>R</classification>
+  </film>
+  <film>
+    <name></name>
+    <duration></duration>
+    <genre></genre>
+    <director></director>
+    <year></year>
+    <classification></classification>
+  </film>
+  <film>
+    <name>Thor</name>
+    <duration>115</duration>
+    <genre>Action</genre>
+    <director>Kenneth Branagh</director>
+    <year>2011</year>
+    <classification>PG-13</classification>
+  </film>
+  <film>
+    <name>Inception</name>
+    <duration>148</duration>
+    <genre>Sci-Fi</genre>
+    <director>Christopher Nolan</director>
+    <year>2010</year>
+    <classification>PG-13</classification>
+  </film>
+</movies>

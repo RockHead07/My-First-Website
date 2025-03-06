@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX XML Table Example</title>
+  <link rel="stylesheet" href="XML.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <h1>My Top Movies</h1>
+    <button id="loadData">Show Movie</button>
+    <div id="movieTable" class="table-container" style="display: none;">
+      <table>
+        <thead>
+          <tr>
+            <th>Num</th>
+            <th>Film</th>
+            <th>Duration (mins)</th>
+            <th>Sub-genre</th>
+            <th>Director</th>
+            <th>Year</th>
+            <th>Classification</th>
+          </tr>
+        </thead>
+        <tbody id="movies"></tbody> <!-- Change 'kabinet' to 'movies' -->
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

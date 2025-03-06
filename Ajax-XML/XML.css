@@ -1,0 +1,109 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Button */
+
+button {
+    display: flex;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    left: 45%;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    transition: .25s;
+    background-color: gray;
+}
+
+/* Table */
+
+.title {
+    font-size: 20px;
+    margin-bottom: 220px;
+}
+
+
+.table-container{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+thead {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+tbody tr{
+    border-bottom: 2px solid darkgray;
+}
+
+tbody tr:last-of-type{
+    border-bottom: 2px solid black !important;
+}
+
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    font-size: 14px;
+    background-color: solid black !important;
+}
+
+td {
+    font-size: 12px;
+    color: solid black;
+    font-weight: 200px;
+    padding: 11.5px;
+}
