@@ -1,3 +1,3 @@
 ### ⚠️Warning⚠️
 
-⚠️This code website is no responsive on mobile devices!⚠️
+⚠️This code website is not responsive on mobile devices!⚠️
